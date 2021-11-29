@@ -23,7 +23,7 @@ class YSF(CheckIn):
         if tokenResponse.ok:
             token = "Bearer " + re.findall(r'token":"(.*?)"', tokenResponse.text)[0]
         else:
-            return [{"name": "签到信息", "value": "Token获取现问题"}][0]
+            return [{"name": "签到信息", "value": "Token获取现问题"}]
 
         session.headers.update(
             {
