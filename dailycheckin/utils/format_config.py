@@ -27,6 +27,8 @@ name_map = {
     "CSDN_COOKIE_LIST": "CSDN",
     "WZYD_DATA_LIST": "WZYD",
     "WOMAIL_URL_LIST": "WOMAIL",
+    "YSF_COOKIE_LIST": "YSF",
+    "HLDC_COOKIE_LIST": "HLDC",
 }
 
 change_key_map = {
@@ -76,6 +78,8 @@ change_key_map = {
     "WZYD_DATA_LIST": {"wzyd_data": "data"},
     "YOUDAO_COOKIE_LIST": {"youdao_cookie": "cookie"},
     "ZHIYOO_COOKIE_LIST": {"zhiyoo_cookie": "cookie"},
+    "YSF_COOKIE_LIST": {"ysf_cookie": "cookie"},
+    "HLDC_COOKIE_LIST": {"hldc_cookie": "cookie"},
 }
 
 
