@@ -22,7 +22,7 @@ def check_config(task_list):
     config_path = None
     config_path_list = []
     for one_path in [
-        "/ql/scripts/config.json",
+        "/data/scripts/config.json",
         "config.json",
         "../config.json",
         "./config/config.json",
